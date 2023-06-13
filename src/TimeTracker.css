@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .col-lg-6 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 8px auto;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #4d90fe;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #4d90fe;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0e3e8c;
+  }
+  
+  ol {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: black;
+  }
+  
+  .project-name {
+    font-weight: bold;
+    color: #ff9900;
+  }
+  
+  .totalhour{
+    font-size: 20px;
+    font-weight: 700;
+  }
